@@ -1,0 +1,128 @@
+{
+  "tr": {
+    "htmlLang": "tr",
+    "langName": "Türkçe",
+    "langShort": "TR",
+    "routes": {
+      "home": "",
+      "games": "oyunlar/",
+      "game": "oyunlar/{slug}/",
+      "gamePrivacy": "oyunlar/{slug}/gizlilik/",
+      "about": "hakkimizda/",
+      "contact": "iletisim/",
+      "privacy": "gizlilik/"
+    },
+    "nav": { "home": "Ana sayfa", "games": "Oyunlar", "about": "Hakkımızda", "contact": "İletişim", "privacy": "Gizlilik", "menu": "Menü" },
+    "home": {
+      "title": "Sıcak ve sakin mobil oyunlar",
+      "featured": "Öne çıkan oyun",
+      "ourGames": "Oyunlarımız",
+      "allGames": "Tüm oyunlar",
+      "valuesTitle": "Nasıl oyun yapıyoruz",
+      "discover": "Oyunu keşfet"
+    },
+    "games": {
+      "title": "Oyunlar",
+      "lead": "Yayınladığımız ve üzerinde çalıştığımız oyunlar.",
+      "more": "Yeni oyunlar yolda. Duyurular bu sayfada yer alacak."
+    },
+    "game": {
+      "features": "Neler yapacaksın",
+      "story": "Hikâye",
+      "screenshots": "Ekran görüntüleri",
+      "characters": "Kasaba sakinleri",
+      "details": "Oyun bilgileri",
+      "genre": "Tür",
+      "platform": "Platform",
+      "status": "Durum",
+      "privacy": "Gizlilik politikası",
+      "playStore": "Google Play'den indir",
+      "playStoreSoon": "Yakında Google Play'de",
+      "backToGames": "Tüm oyunlar"
+    },
+    "status": { "in-development": "Geliştiriliyor", "coming-soon": "Yakında", "released": "Yayında" },
+    "platforms": { "android": "Android", "ios": "iOS" },
+    "about": { "title": "Hakkımızda" },
+    "contact": {
+      "title": "İletişim",
+      "lead": "Oyunlarımızla ilgili soru, öneri, hata bildirimi veya iş birliği teklifleri için bize yazın.",
+      "email": "E-posta",
+      "location": "Konum",
+      "support": "Oyun desteği",
+      "supportText": "Bir oyunda sorun yaşıyorsanız e-postanıza oyunun adını, cihaz modelinizi ve Android sürümünüzü eklerseniz daha hızlı yardımcı olabiliriz."
+    },
+    "privacy": {
+      "updated": "Son güncelleme",
+      "draft": "Taslak: Bu metin henüz hukuki olarak gözden geçirilmedi ve yayına alınmadan önce onaylanacak.",
+      "pendingTitle": "Henüz belirlenmeyenler",
+      "otherLang": "Read in English"
+    },
+    "footer": { "rights": "Tüm hakları saklıdır.", "fonts": "Yazı tipleri: Baloo 2 ve Nunito (SIL OFL 1.1)." },
+    "notFound": { "title": "Sayfa bulunamadı", "text": "Aradığınız sayfa taşınmış ya da hiç var olmamış olabilir.", "back": "Ana sayfaya dön" },
+    "skip": "İçeriğe geç",
+    "langSwitch": "English"
+  },
+  "en": {
+    "htmlLang": "en",
+    "langName": "English",
+    "langShort": "EN",
+    "routes": {
+      "home": "en/",
+      "games": "en/games/",
+      "game": "en/games/{slug}/",
+      "gamePrivacy": "en/games/{slug}/privacy/",
+      "about": "en/about/",
+      "contact": "en/contact/",
+      "privacy": "en/privacy/"
+    },
+    "nav": { "home": "Home", "games": "Games", "about": "About", "contact": "Contact", "privacy": "Privacy", "menu": "Menu" },
+    "home": {
+      "title": "Warm and calm mobile games",
+      "featured": "Featured game",
+      "ourGames": "Our games",
+      "allGames": "All games",
+      "valuesTitle": "How we make games",
+      "discover": "Discover the game"
+    },
+    "games": {
+      "title": "Games",
+      "lead": "Games we have released and are working on.",
+      "more": "More games are on the way. Announcements will appear on this page."
+    },
+    "game": {
+      "features": "What you'll do",
+      "story": "Story",
+      "screenshots": "Screenshots",
+      "characters": "Townsfolk",
+      "details": "Game details",
+      "genre": "Genre",
+      "platform": "Platform",
+      "status": "Status",
+      "privacy": "Privacy policy",
+      "playStore": "Get it on Google Play",
+      "playStoreSoon": "Coming soon to Google Play",
+      "backToGames": "All games"
+    },
+    "status": { "in-development": "In development", "coming-soon": "Coming soon", "released": "Available" },
+    "platforms": { "android": "Android", "ios": "iOS" },
+    "about": { "title": "About us" },
+    "contact": {
+      "title": "Contact",
+      "lead": "Write to us with questions, ideas, bug reports or partnership offers about our games.",
+      "email": "Email",
+      "location": "Location",
+      "support": "Game support",
+      "supportText": "If something is wrong in one of our games, include the game's name, your device model and Android version in your email so we can help faster."
+    },
+    "privacy": {
+      "updated": "Last updated",
+      "draft": "Draft: this text has not been legally reviewed yet and will be approved before it goes live.",
+      "pendingTitle": "Not decided yet",
+      "otherLang": "Türkçe oku"
+    },
+    "footer": { "rights": "All rights reserved.", "fonts": "Typefaces: Baloo 2 and Nunito (SIL OFL 1.1)." },
+    "notFound": { "title": "Page not found", "text": "The page you are looking for may have moved or never existed.", "back": "Back to home" },
+    "skip": "Skip to content",
+    "langSwitch": "Türkçe"
+  }
+}

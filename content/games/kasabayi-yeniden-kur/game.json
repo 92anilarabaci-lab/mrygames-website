@@ -1,0 +1,114 @@
+{
+  "slug": "kasabayi-yeniden-kur",
+  "order": 1,
+  "featured": true,
+  "status": "in-development",
+  "title": { "tr": "Kasabayı Yeniden Kur", "en": "Kasabayı Yeniden Kur" },
+  "subtitle": { "tr": "Merge · Çiftlik · Restorasyon", "en": "Rebuild the Town · Merge · Farm · Restore" },
+  "genre": { "tr": "Cozy 3D merge, çiftçilik ve kasaba restorasyonu", "en": "Cozy 3D merge, farming and town restoration" },
+  "platforms": ["android"],
+  "accent": "#C97850",
+  "accentDeep": "#9E5634",
+  "packageId": "com.kyk.kasabayiyenidenkur",
+  "packageIdIsPlaceholder": true,
+  "googlePlayUrl": "",
+  "media": {
+    "icon": "icon.webp",
+    "cover": "cover.webp",
+    "og": "og.jpg",
+    "heroShot": "shot-town.webp"
+  },
+  "tagline": {
+    "tr": "Dedenin eski evi seni bekliyor. Kasabaya yeniden hayat ver.",
+    "en": "Your grandfather's old house is waiting. Bring the town back to life."
+  },
+  "summary": {
+    "tr": "Bir zamanlar canlı olan küçük bir kasabaya dön, eşyaları birleştir, tarlanı ek, komşularının siparişlerini tamamla ve binaları aşama aşama onar.",
+    "en": "Return to a once-lively little town: merge items, tend your fields, fill your neighbours' orders and restore its buildings one stage at a time."
+  },
+  "description": {
+    "tr": [
+      "Dede Kemal, sana yıllardır kimsenin uğramadığı eski aile evini ve bir mektup bıraktı. Kasaba sessiz, yollar otlarla kaplı, dükkânların kepenkleri yarı kapalı… ama sakinleri hâlâ burada ve birinin yeniden başlamasını bekliyorlar.",
+      "Merge tahtasında odun, taş ve tohumları birleştirerek daha değerli eşyalar üret. Tarlanda buğday ve mısır yetiştir, fırına un, marangoza kereste gönder. Ayşe'nin, Hasan'ın, Zeynep'in ve Mehmet'in siparişlerini tamamladıkça kasaba gözünün önünde değişsin: çatılar onarılır, bacalar tüter, meydan bayraklarla süslenir.",
+      "Her restorasyon kasabanın geçmişinden yeni bir parça açar. Meraklı gezgin Ece ile birlikte eski madenin sırrını çöz, dedenin defterindeki notların peşine düş."
+    ],
+    "en": [
+      "Grandpa Kemal left you the old family house nobody has visited in years, along with a letter. The town is quiet, the paths are overgrown and the shop shutters are half closed… but its people are still here, waiting for someone to start again.",
+      "Merge logs, stones and seeds on the board into more valuable goods. Grow wheat and corn, send flour to the bakery and timber to the carpenter. As you fill Ayşe's, Hasan's, Zeynep's and Mehmet's orders, the town changes before your eyes: roofs are mended, chimneys smoke again and the square fills with bunting.",
+      "Every restoration uncovers another piece of the town's past. Team up with curious traveller Ece to solve the mystery of the old mine and follow the notes in your grandfather's journal."
+    ]
+  },
+  "features": [
+    {
+      "icon": "merge",
+      "title": { "tr": "Birleştir ve üret", "en": "Merge and craft" },
+      "text": {
+        "tr": "Aynı iki eşyayı sürükleyip birleştir; üreticilere dokunarak yeni kaynaklar çıkar.",
+        "en": "Drag two matching items together and tap producers for fresh resources."
+      }
+    },
+    {
+      "icon": "sprout",
+      "title": { "tr": "Tarlanı yönet", "en": "Tend your farm" },
+      "text": {
+        "tr": "Ekin ek, hasat et ve ürünlerini kasabanın üretim zincirlerine gönder.",
+        "en": "Plant, harvest and feed your crops into the town's production chains."
+      }
+    },
+    {
+      "icon": "house",
+      "title": { "tr": "Kasabayı onar", "en": "Restore the town" },
+      "text": {
+        "tr": "Fırın, marangoz atölyesi, market ve istasyon aşama aşama yeniden canlanır.",
+        "en": "The bakery, workshop, market and station come back to life stage by stage."
+      }
+    },
+    {
+      "icon": "book",
+      "title": { "tr": "Hikâyeyi keşfet", "en": "Uncover the story" },
+      "text": {
+        "tr": "Kısa, sıcak diyaloglarla kasaba sakinlerini tanı ve madenin sırrını çöz.",
+        "en": "Meet the townsfolk through short, warm dialogue and solve the mine's mystery."
+      }
+    }
+  ],
+  "screenshots": [
+    { "file": "shot-town.webp", "alt": { "tr": "Restore edilmiş aile evi ve kasaba meydanı", "en": "The restored family house and the town square" } },
+    { "file": "shot-board.webp", "alt": { "tr": "Merge tahtası: odun, taş ve tohum üreticileri", "en": "The merge board with log, stone and seed producers" } },
+    { "file": "shot-orders.webp", "alt": { "tr": "Hasan, Mehmet ve Zeynep'in siparişleri", "en": "Orders from Hasan, Mehmet and Zeynep" } },
+    { "file": "shot-farm.webp", "alt": { "tr": "Değirmen yanında mısır ve buğday tarlaları", "en": "Corn and wheat fields beside the windmill" } }
+  ],
+  "characters": [
+    { "name": "Kemal", "portrait": "portrait-kemal.webp", "role": { "tr": "Dede · eski marangoz", "en": "Grandpa · former carpenter" } },
+    { "name": "Ayşe", "portrait": "portrait-ayse.webp", "role": { "tr": "Marketin enerjik sahibi", "en": "The market's lively owner" } },
+    { "name": "Hasan", "portrait": "portrait-hasan.webp", "role": { "tr": "Kasabanın fırıncısı", "en": "The town baker" } },
+    { "name": "Zeynep", "portrait": "portrait-zeynep.webp", "role": { "tr": "Çiçekçi, eski geleneklerin bekçisi", "en": "Florist, keeper of old traditions" } },
+    { "name": "Mehmet", "portrait": "portrait-mehmet.webp", "role": { "tr": "Marangoz ve usta", "en": "Carpenter and craftsman" } },
+    { "name": "Ece", "portrait": "portrait-ece.webp", "role": { "tr": "Meraklı gezgin, araştırmacı", "en": "Curious traveller and researcher" } }
+  ],
+  "privacy": {
+    "lastUpdated": "2026-11-20",
+    "draft": true,
+    "ads": true,
+    "rewardedAdsOptional": true,
+    "inAppPurchases": true,
+    "analytics": true,
+    "localSaveOnly": true,
+    "accounts": false,
+    "childDirected": false,
+    "thirdParties": [
+      {
+        "name": "Google Play Billing (Google LLC)",
+        "purpose": {
+          "tr": "Uygulama içi satın alımların işlenmesi ve doğrulanması",
+          "en": "Processing and verifying in-app purchases"
+        },
+        "policyUrl": "https://policies.google.com/privacy"
+      }
+    ],
+    "pendingThirdParties": {
+      "tr": "Reklam ağı / reklam aracılık (mediation) sağlayıcısı ve analitik hizmeti henüz seçilmedi. Seçildiğinde bu listeye adı, amacı ve gizlilik politikası bağlantısıyla eklenecektir.",
+      "en": "The ad network / ad mediation provider and analytics service have not been chosen yet. Once chosen, they will be added to this list with their name, purpose and privacy policy link."
+    }
+  }
+}

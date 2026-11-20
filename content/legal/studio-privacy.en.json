@@ -1,0 +1,41 @@
+{
+  "title": "Privacy Policy",
+  "lead": "This policy explains how your data is handled when you use the {{studio}} website and our games.",
+  "sections": [
+    {
+      "h": "Who we are",
+      "p": ["{{studio}} is an independent studio that develops and publishes mobile games. {{studio}} is responsible for the data processing described in this policy. You can reach us at {{email}}."]
+    },
+    {
+      "h": "This website",
+      "p": [
+        "This is a static, information-only website. It does not use cookies, contains no analytics or tracking tools and does not collect data through forms.",
+        "The site is served from our hosting provider's servers. For security and to operate the service, the provider may keep visitors' IP addresses and browser details in short-lived server logs. We do not access or use these logs."
+      ]
+    },
+    {
+      "h": "Our games",
+      "p": ["What data each game processes, which third-party services it uses and how you can delete your data is explained in detail on that game's own privacy page:"],
+      "gamesList": true
+    },
+    {
+      "h": "Children's privacy",
+      "p": ["Our games do not knowingly collect personal data from children under 13. If you believe a child has sent us personal data, please write to {{email}} and we will delete it."]
+    },
+    {
+      "h": "Your rights",
+      "p": [
+        "Depending on where you live, laws such as the EU General Data Protection Regulation (GDPR) and Türkiye's Personal Data Protection Law No. 6698 (KVKK) give you the right to know whether your data is processed, to access it, to ask for it to be corrected or deleted and to object to its processing.",
+        "Send your request to {{email}}. We reply within 30 days at the latest."
+      ]
+    },
+    {
+      "h": "Changes",
+      "p": ["We may update this policy from time to time. When we make important changes, the date on this page changes and, where needed, we let you know in the game."]
+    },
+    {
+      "h": "Contact",
+      "p": ["For any privacy question: {{email}}"]
+    }
+  ]
+}

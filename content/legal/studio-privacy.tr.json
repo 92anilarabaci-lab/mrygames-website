@@ -1,0 +1,41 @@
+{
+  "title": "Gizlilik Politikası",
+  "lead": "Bu politika, {{studio}} web sitesini ve oyunlarımızı kullanırken verilerinizin nasıl ele alındığını açıklar.",
+  "sections": [
+    {
+      "h": "Biz kimiz",
+      "p": ["{{studio}}, mobil oyunlar geliştiren ve yayınlayan bağımsız bir oyun stüdyosudur. Bu politika kapsamındaki veri işlemelerinden {{studio}} sorumludur. Bize {{email}} adresinden ulaşabilirsiniz."]
+    },
+    {
+      "h": "Bu web sitesi",
+      "p": [
+        "Bu site yalnızca bilgi amaçlı, statik bir sitedir. Çerez kullanmaz, analitik veya izleme aracı içermez, form aracılığıyla veri toplamaz.",
+        "Site, barındırma hizmeti sağlayıcısının sunucularında yayınlanır. Sağlayıcı, güvenlik ve hizmetin işletilmesi amacıyla ziyaretçilerin IP adresini ve tarayıcı bilgilerini kısa süreli sunucu kayıtlarında tutabilir. Bu kayıtlara biz erişmeyiz ve bunları kullanmayız."
+      ]
+    },
+    {
+      "h": "Oyunlarımız",
+      "p": ["Her oyunun hangi verileri işlediği, hangi üçüncü taraf hizmetleri kullandığı ve verilerinizi nasıl silebileceğiniz o oyuna ait gizlilik sayfasında ayrıntılı olarak açıklanır:"],
+      "gamesList": true
+    },
+    {
+      "h": "Çocukların gizliliği",
+      "p": ["Oyunlarımız bilerek 13 yaşından küçük çocuklardan kişisel veri toplamaz. Bir çocuğun bize kişisel veri ilettiğini düşünüyorsanız {{email}} adresinden bize yazın; bu veriyi sileriz."]
+    },
+    {
+      "h": "Haklarınız",
+      "p": [
+        "6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve yaşadığınız yere göre Avrupa Birliği Genel Veri Koruma Tüzüğü (GDPR) gibi düzenlemeler kapsamında; verilerinizin işlenip işlenmediğini öğrenme, verilere erişme, düzeltilmesini veya silinmesini isteme ve işlenmesine itiraz etme haklarına sahipsiniz.",
+        "Taleplerinizi {{email}} adresine iletebilirsiniz. Taleplere en geç 30 gün içinde yanıt veririz."
+      ]
+    },
+    {
+      "h": "Değişiklikler",
+      "p": ["Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişikliklerde güncelleme tarihi bu sayfada değişir ve gerekirse oyun içinde bildirim yapılır."]
+    },
+    {
+      "h": "İletişim",
+      "p": ["Gizlilikle ilgili her türlü soru için: {{email}}"]
+    }
+  ]
+}

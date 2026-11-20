@@ -1,0 +1,75 @@
+{
+  "title": "{{game}} — Privacy Policy",
+  "lead": "This policy covers the mobile game {{game}} (Android package name: {{package}}), developed by {{studio}}.",
+  "sections": [
+    {
+      "h": "Summary",
+      "ul": [
+        "You do not need an account; we never ask for your name, email address or location.",
+        { "when": "localSaveOnly", "text": "Your game progress is stored only on your device." },
+        { "when": "ads", "text": "Rewarded ads are always optional; ad partners may process device data such as the advertising ID." },
+        { "when": "inAppPurchases", "text": "Purchases go through Google Play; your payment details never reach us." },
+        { "when": "analytics", "text": "Anonymous gameplay events without personal data may be used to improve the game." }
+      ]
+    },
+    {
+      "h": "Data we collect and process",
+      "p": [
+        "{{game}} does not require a user account and does not ask you for personal information.",
+        { "when": "localSaveOnly", "text": "Your level, inventory, restoration progress and settings are kept in a save file in the app's folder on your device. This save is not sent to us." }
+      ]
+    },
+    {
+      "when": "ads",
+      "h": "Advertising",
+      "p": [
+        "The game may show two kinds of ads: rewarded ads, shown only when you press a button and choose to watch, and occasional interstitial ads at natural breaks such as between chapters.",
+        "To serve ads, cap their frequency, prevent fraud and measure ad performance, ad partners may process your device's advertising ID, IP address, device model and operating system.",
+        "Players in the European Economic Area, the United Kingdom and Switzerland see a consent screen before any personalised ads are shown. You can change your choice in the game settings.",
+        "On Android you can reset or delete your advertising ID under Settings → Google → Ads."
+      ]
+    },
+    {
+      "when": "inAppPurchases",
+      "h": "In-app purchases",
+      "p": [
+        "The game offers optional purchases. Everything for sale can also be earned by playing.",
+        "Payments are handled entirely by Google Play. Your card or account details are never passed to us. Only the transaction ID and product information provided by Google Play are used to verify a purchase and make sure a reward is never granted twice."
+      ]
+    },
+    {
+      "when": "analytics",
+      "h": "Gameplay analytics",
+      "p": ["To improve the game we may record anonymous gameplay events such as which chapter was finished, which level was reached or whether an ad placement was used. These events do not contain your name, email address, location or contacts."]
+    },
+    {
+      "h": "Third-party services",
+      "p": ["{{game}} uses the services below. They process data under their own privacy policies:"],
+      "thirdParties": true
+    },
+    {
+      "h": "Retention and deletion",
+      "p": [
+        { "when": "localSaveOnly", "text": "Your save stays on your device. It is deleted when you uninstall the app or clear its data in Android settings." },
+        "Data held by ad and purchase partners is governed by that partner's policy. To ask for deletion, write to {{email}} and we will guide you."
+      ]
+    },
+    {
+      "when": "!childDirected",
+      "h": "Children",
+      "p": ["{{game}} is not directed at children under 13 and does not knowingly collect personal data from them. If you believe a child's data has been processed, contact us at {{email}}."]
+    },
+    {
+      "when": "childDirected",
+      "h": "Children",
+      "p": ["{{game}} is aimed at an audience that includes children. Players known to be children are never shown personalised ads, and only ad partners that comply with the Google Play Families policy are used."]
+    },
+    {
+      "h": "Your rights and contact",
+      "p": [
+        "For your rights under laws such as the GDPR and KVKK (access, correction, deletion, objection), write to {{email}}. We reply within 30 days at the latest.",
+        "When this policy changes, the date at the top of the page changes."
+      ]
+    }
+  ]
+}

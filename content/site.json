@@ -1,0 +1,63 @@
+{
+  "name": "MRY GAMES",
+  "url": "",
+  "defaultLang": "tr",
+  "languages": ["tr", "en"],
+  "contact": {
+    "email": "iletisim@mrygames.example",
+    "emailIsPlaceholder": true,
+    "location": { "tr": "Türkiye", "en": "Türkiye" }
+  },
+  "social": [],
+  "appAdsTxt": [],
+  "legal": {
+    "privacyLastUpdated": "2026-11-20",
+    "privacyDraft": true
+  },
+  "tagline": {
+    "tr": "Sıcak, sakin ve uzun soluklu mobil oyunlar.",
+    "en": "Warm, calm and long-lasting mobile games."
+  },
+  "intro": {
+    "tr": "MRY GAMES, insanın içini ısıtan dünyalar kuran küçük, bağımsız bir mobil oyun stüdyosu. Acele ettirmeyen, oyuncuya saygı duyan ve her oturumda küçük bir mutluluk bırakan oyunlar yapıyoruz.",
+    "en": "MRY GAMES is a small, independent mobile game studio building worlds that feel like home. We make games that never rush you, respect your time and leave a small moment of joy in every session."
+  },
+  "values": [
+    {
+      "icon": "leaf",
+      "title": { "tr": "Sakin oynanış", "en": "Calm play" },
+      "text": {
+        "tr": "Zamanlayıcılar ilerlemeyi destekler, oyuncuyu cezalandırmaz.",
+        "en": "Timers support progress; they never punish the player."
+      }
+    },
+    {
+      "icon": "heart",
+      "title": { "tr": "Adil ekonomi", "en": "Fair economy" },
+      "text": {
+        "tr": "Satılan her şey oynayarak kazanılabilir. Reklamlar her zaman isteğe bağlıdır.",
+        "en": "Everything for sale can be earned by playing. Ads are always optional."
+      }
+    },
+    {
+      "icon": "book",
+      "title": { "tr": "Hikâyesi olan dünyalar", "en": "Worlds with stories" },
+      "text": {
+        "tr": "Karakterler görev veren tabelalar değil; her birinin bir geçmişi var.",
+        "en": "Characters are not quest boards; each one has a past."
+      }
+    }
+  ],
+  "about": {
+    "tr": [
+      "MRY GAMES, Türkiye'de kurulmuş bağımsız bir mobil oyun stüdyosudur. Küçük bir ekiple, uzun süre keyifle oynanabilecek, sıcak ve stilize 3D oyunlar geliştiriyoruz.",
+      "İlk oyunumuz Kasabayı Yeniden Kur; birleştirme, çiftçilik ve kasaba restorasyonunu sıcak bir hikâyeyle bir araya getiriyor. Önce sağlam ve cilalı bir temel deneyim, ardından düzenli sezonlar ve yeni içerikler yayınlamayı amaçlıyoruz.",
+      "Oyunlarımızda kişisel veri toplamamaya, karanlık tasarım kalıplarından uzak durmaya ve ödüllü reklamları yalnızca oyuncunun açık tercihiyle göstermeye özen gösteriyoruz."
+    ],
+    "en": [
+      "MRY GAMES is an independent mobile game studio founded in Türkiye. As a small team, we build warm, stylised 3D games that you can enjoy for a long time.",
+      "Our first game, Kasabayı Yeniden Kur (Rebuild the Town), brings merging, farming and town restoration together with a heart-warming story. We focus on a solid, polished core first, then regular seasons and new content.",
+      "We avoid collecting personal data, stay away from dark design patterns and only show rewarded ads when the player explicitly chooses to watch one."
+    ]
+  }
+}

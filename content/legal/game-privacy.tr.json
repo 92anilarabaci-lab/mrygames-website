@@ -1,0 +1,75 @@
+{
+  "title": "{{game}} — Gizlilik Politikası",
+  "lead": "Bu politika, {{studio}} tarafından geliştirilen {{game}} mobil oyununu (Android paket adı: {{package}}) kapsar.",
+  "sections": [
+    {
+      "h": "Özet",
+      "ul": [
+        "Hesap açmanız gerekmez; adınızı, e-posta adresinizi veya konumunuzu istemeyiz.",
+        { "when": "localSaveOnly", "text": "Oyun ilerlemeniz yalnızca cihazınızda saklanır." },
+        { "when": "ads", "text": "Ödüllü reklamlar her zaman isteğe bağlıdır; reklam ortakları reklam kimliği gibi cihaz verilerini işleyebilir." },
+        { "when": "inAppPurchases", "text": "Satın alımlar Google Play üzerinden yapılır; ödeme bilgileriniz bize ulaşmaz." },
+        { "when": "analytics", "text": "Oyunu geliştirmek için kişisel veri içermeyen anonim oyun olayları kullanılabilir." }
+      ]
+    },
+    {
+      "h": "Topladığımız ve işlediğimiz veriler",
+      "p": [
+        "{{game}} bir kullanıcı hesabı gerektirmez ve sizden kişisel bilgi istemez.",
+        { "when": "localSaveOnly", "text": "Seviyeniz, envanteriniz, restorasyon ilerlemeniz ve ayarlarınız cihazınızdaki uygulama klasöründe bir kayıt dosyası olarak saklanır. Bu kayıt bize gönderilmez." }
+      ]
+    },
+    {
+      "when": "ads",
+      "h": "Reklamlar",
+      "p": [
+        "Oyunda iki tür reklam bulunabilir: yalnızca siz bir düğmeye basıp izlemeyi seçtiğinizde gösterilen ödüllü reklamlar ve bölüm araları gibi doğal molalarda seyrek gösterilen geçiş reklamları.",
+        "Reklamları sunmak, sıklığını sınırlamak, dolandırıcılığı önlemek ve reklam performansını ölçmek için reklam ortakları cihazınızın reklam kimliğini, IP adresinizi, cihaz modeli ve işletim sistemi bilgisini işleyebilir.",
+        "Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'deki oyunculara, kişiselleştirilmiş reklamlar gösterilmeden önce bir izin ekranı sunulur. Tercihinizi oyun ayarlarından değiştirebilirsiniz.",
+        "Android cihazınızda Ayarlar → Google → Reklamlar bölümünden reklam kimliğinizi sıfırlayabilir veya silebilirsiniz."
+      ]
+    },
+    {
+      "when": "inAppPurchases",
+      "h": "Uygulama içi satın alımlar",
+      "p": [
+        "Oyunda isteğe bağlı satın alımlar bulunur. Satılan her şey oynayarak da kazanılabilir.",
+        "Ödemeler tamamen Google Play tarafından işlenir. Kart veya hesap bilgileriniz bize iletilmez. Satın alımı doğrulamak ve ödülü iki kez vermemek için yalnızca Google Play'in sağladığı işlem kimliği ve ürün bilgisi kullanılır."
+      ]
+    },
+    {
+      "when": "analytics",
+      "h": "Oyun analitiği",
+      "p": ["Oyunu iyileştirmek için hangi bölümün tamamlandığı, hangi seviyeye ulaşıldığı veya bir reklam yerleşiminin kullanılıp kullanılmadığı gibi anonim oyun olayları kaydedilebilir. Bu olaylar adınızı, e-posta adresinizi, konumunuzu veya rehberinizi içermez."]
+    },
+    {
+      "h": "Üçüncü taraf hizmetler",
+      "p": ["{{game}} aşağıdaki hizmetleri kullanır. Bu hizmetler verileri kendi gizlilik politikalarına göre işler:"],
+      "thirdParties": true
+    },
+    {
+      "h": "Saklama ve silme",
+      "p": [
+        { "when": "localSaveOnly", "text": "Oyun kaydınız cihazınızda kalır. Uygulamayı kaldırdığınızda veya Android ayarlarından uygulama verilerini temizlediğinizde kayıt silinir." },
+        "Reklam ve satın alma ortaklarının tuttuğu veriler için ilgili ortağın politikası geçerlidir. Silme talebiniz için {{email}} adresinden bize yazabilirsiniz; size yol gösteririz."
+      ]
+    },
+    {
+      "when": "!childDirected",
+      "h": "Çocuklar",
+      "p": ["{{game}} 13 yaşından küçük çocuklara yönelik değildir ve bilerek onlardan kişisel veri toplamaz. Bir çocuğun verisinin işlendiğini düşünüyorsanız {{email}} adresinden bize ulaşın."]
+    },
+    {
+      "when": "childDirected",
+      "h": "Çocuklar",
+      "p": ["{{game}} çocukları da içeren bir kitleye yöneliktir. Çocuk olduğu bilinen oyunculara kişiselleştirilmiş reklam gösterilmez ve yalnızca Google Play Aileler politikasına uygun reklam ortakları kullanılır."]
+    },
+    {
+      "h": "Haklarınız ve iletişim",
+      "p": [
+        "KVKK ve GDPR gibi düzenlemeler kapsamındaki haklarınız (erişim, düzeltme, silme, itiraz) için {{email}} adresine yazabilirsiniz. Taleplere en geç 30 gün içinde yanıt veririz.",
+        "Bu politika güncellendiğinde sayfanın başındaki tarih değişir."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "klasor-adi-ile-ayni",
+  "order": 2,
+  "featured": false,
+  "status": "in-development",
+  "title": { "tr": "Oyunun Adı", "en": "Game Title" },
+  "subtitle": { "tr": "Kısa tür etiketi", "en": "Short genre label" },
+  "genre": { "tr": "Tür açıklaması", "en": "Genre description" },
+  "platforms": ["android"],
+  "accent": "#78A85B",
+  "accentDeep": "#426B45",
+  "packageId": "com.mrygames.oyunadi",
+  "packageIdIsPlaceholder": true,
+  "googlePlayUrl": "",
+  "media": {
+    "icon": "icon.webp",
+    "cover": "cover.webp",
+    "og": "og.jpg",
+    "heroShot": "shot-1.webp"
+  },
+  "tagline": { "tr": "Tek cümlelik çekici slogan.", "en": "One-line hook." },
+  "summary": { "tr": "Kartlarda görünen 1-2 cümlelik özet.", "en": "1-2 sentence summary shown on cards." },
+  "description": {
+    "tr": ["Hikâye/tanıtım paragrafı 1.", "Paragraf 2."],
+    "en": ["Story/intro paragraph 1.", "Paragraph 2."]
+  },
+  "features": [
+    { "icon": "merge", "title": { "tr": "Özellik", "en": "Feature" }, "text": { "tr": "Açıklama.", "en": "Description." } }
+  ],
+  "screenshots": [
+    { "file": "shot-1.webp", "alt": { "tr": "Ekranda ne görünüyor", "en": "What the screen shows" } }
+  ],
+  "characters": [],
+  "privacy": {
+    "lastUpdated": "2026-01-01",
+    "draft": true,
+    "ads": false,
+    "rewardedAdsOptional": false,
+    "inAppPurchases": false,
+    "analytics": false,
+    "localSaveOnly": true,
+    "accounts": false,
+    "childDirected": false,
+    "thirdParties": [],
+    "pendingThirdParties": { "tr": "", "en": "" }
+  }
+}

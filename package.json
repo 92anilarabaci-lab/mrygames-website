@@ -1,0 +1,16 @@
+{
+  "name": "mrygames-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MRY GAMES studio website — static, generated from content/ with zero dependencies.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "build:strict": "node src/build.mjs --strict",
+    "check": "node src/check.mjs",
+    "test": "node src/build.mjs && node src/check.mjs",
+    "serve": "node src/serve.mjs",
+    "dev": "node src/build.mjs && node src/serve.mjs"
+  }
+}
