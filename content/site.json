@@ -1,11 +1,11 @@
 {
   "name": "MRY GAMES",
-  "url": "",
+  "url": "https://92anilarabaci-lab.github.io/mrygames-website",
   "defaultLang": "tr",
   "languages": ["tr", "en"],
   "contact": {
-    "email": "iletisim@mrygames.example",
-    "emailIsPlaceholder": true,
+    "email": "92anil.arabaci@gmail.com",
+    "emailIsPlaceholder": false,
     "location": { "tr": "Türkiye", "en": "Türkiye" }
   },
   "social": [],
