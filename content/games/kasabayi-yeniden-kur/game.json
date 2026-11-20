@@ -104,11 +104,19 @@
           "en": "Processing and verifying in-app purchases"
         },
         "policyUrl": "https://policies.google.com/privacy"
+      },
+      {
+        "name": "Google AdMob (Google LLC)",
+        "purpose": {
+          "tr": "Ödüllü ve geçiş reklamlarının gösterilmesi, reklam izni (UMP) ve reklam ölçümü",
+          "en": "Showing rewarded and interstitial ads, ad consent (UMP) and ad measurement"
+        },
+        "policyUrl": "https://policies.google.com/technologies/ads"
       }
     ],
     "pendingThirdParties": {
-      "tr": "Reklam ağı / reklam aracılık (mediation) sağlayıcısı ve analitik hizmeti henüz seçilmedi. Seçildiğinde bu listeye adı, amacı ve gizlilik politikası bağlantısıyla eklenecektir.",
-      "en": "The ad network / ad mediation provider and analytics service have not been chosen yet. Once chosen, they will be added to this list with their name, purpose and privacy policy link."
+      "tr": "Analitik hizmeti henüz seçilmedi. Seçildiğinde bu listeye adı, amacı ve gizlilik politikası bağlantısıyla eklenecektir.",
+      "en": "The analytics service has not been chosen yet. Once chosen, it will be added to this list with its name, purpose and privacy policy link."
     }
   }
 }
