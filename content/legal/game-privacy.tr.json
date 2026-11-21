@@ -1,5 +1,6 @@
 {
   "title": "{{game}} — Gizlilik Politikası",
+  "defaultSavedData": "Seviyeniz, envanteriniz, restorasyon ilerlemeniz ve ayarlarınız",
   "lead": "Bu politika, {{studio}} tarafından geliştirilen {{game}} mobil oyununu (Android paket adı: {{package}}) kapsar.",
   "sections": [
     {
@@ -16,7 +17,7 @@
       "h": "Topladığımız ve işlediğimiz veriler",
       "p": [
         "{{game}} bir kullanıcı hesabı gerektirmez ve sizden kişisel bilgi istemez.",
-        { "when": "localSaveOnly", "text": "Seviyeniz, envanteriniz, restorasyon ilerlemeniz ve ayarlarınız cihazınızdaki uygulama klasöründe bir kayıt dosyası olarak saklanır. Bu kayıt bize gönderilmez." }
+        { "when": "localSaveOnly", "text": "{{savedData}} cihazınızdaki uygulama klasöründe bir kayıt dosyası olarak saklanır. Bu kayıt bize gönderilmez." }
       ]
     },
     {
@@ -43,6 +44,7 @@
       "p": ["Oyunu iyileştirmek için hangi bölümün tamamlandığı, hangi seviyeye ulaşıldığı veya bir reklam yerleşiminin kullanılıp kullanılmadığı gibi anonim oyun olayları kaydedilebilir. Bu olaylar adınızı, e-posta adresinizi, konumunuzu veya rehberinizi içermez."]
     },
     {
+      "when": "hasThirdParties",
       "h": "Üçüncü taraf hizmetler",
       "p": ["{{game}} aşağıdaki hizmetleri kullanır. Bu hizmetler verileri kendi gizlilik politikalarına göre işler:"],
       "thirdParties": true
@@ -51,7 +53,8 @@
       "h": "Saklama ve silme",
       "p": [
         { "when": "localSaveOnly", "text": "Oyun kaydınız cihazınızda kalır. Uygulamayı kaldırdığınızda veya Android ayarlarından uygulama verilerini temizlediğinizde kayıt silinir." },
-        "Reklam ve satın alma ortaklarının tuttuğu veriler için ilgili ortağın politikası geçerlidir. Silme talebiniz için {{email}} adresinden bize yazabilirsiniz; size yol gösteririz."
+        { "when": "hasPartners", "text": "Reklam ve satın alma ortaklarının tuttuğu veriler için ilgili ortağın politikası geçerlidir." },
+        "Silme talebiniz için {{email}} adresinden bize yazabilirsiniz; size yol gösteririz."
       ]
     },
     {

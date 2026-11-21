@@ -495,9 +495,12 @@ function renderGamePrivacy(ctx, g) {
   const items = pv.thirdParties.map((tp) => `<li><b>${esc(tp.name)}</b> — ${esc(ctx.tr(tp.purpose))}. <a href="${esc(tp.policyUrl)}" rel="noopener">${esc(tp.policyUrl.replace(/^https:\/\//, ""))}</a></li>`).join("");
   const pending = ctx.tr(pv.pendingThirdParties);
   const thirdParties = `<ul>${items}</ul>${pending ? `<p class="pending"><b>${esc(ctx.L.privacy.pendingTitle)}:</b> ${esc(pending)}</p>` : ""}`;
+  const doc = legal[ctx.lang].game;
+  tokens.savedData = esc(pv.savedData ? ctx.tr(pv.savedData) : doc.defaultSavedData);
+  const flags = { ...pv, hasThirdParties: pv.thirdParties.length > 0 || !!pending, hasPartners: pv.ads || pv.inAppPurchases };
   const r = privacyPage(ctx, {
-    doc: legal[ctx.lang].game,
-    flags: pv,
+    doc,
+    flags,
     tokens,
     extras: { thirdParties },
     updated: pv.lastUpdated,

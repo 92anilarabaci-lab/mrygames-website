@@ -1,0 +1,88 @@
+{
+  "slug": "mry-okey-yazboz",
+  "order": 2,
+  "featured": false,
+  "status": "coming-soon",
+  "title": { "tr": "MRY Okey - Yazboz", "en": "MRY Okey - Scorepad" },
+  "subtitle": { "tr": "101 ve Okey puan tablosu", "en": "Okey & 101 scorekeeper" },
+  "genre": { "tr": "Masa oyunu yardımcı uygulaması", "en": "Tabletop game companion app" },
+  "platforms": ["android"],
+  "accent": "#1E7A52",
+  "accentDeep": "#11553A",
+  "packageId": "com.mrygames.okeyyazboz",
+  "packageIdIsPlaceholder": false,
+  "googlePlayUrl": "",
+  "media": {
+    "icon": "icon.webp",
+    "cover": "cover.webp",
+    "og": "og.jpg",
+    "heroShot": "shot-game101.webp"
+  },
+  "tagline": {
+    "tr": "Kâğıt kalem yok, hesap hatası yok: okey masasının yazbozu cebinde.",
+    "en": "No pen, no paper, no maths mistakes: the okey table's scorepad in your pocket."
+  },
+  "summary": {
+    "tr": "101 ve klasik Okey için tek veya eşli yazboz. Elleri girin, cezaları yazın, toplamları uygulama hesaplasın.",
+    "en": "A solo or team scorepad for 101 and classic Okey. Enter hands and penalties; the app does the totals."
+  },
+  "description": {
+    "tr": [
+      "MRY Okey - Yazboz, okey masasındaki kâğıt yazbozun yerini alır. 101 Okey ya da klasik Okey için yeni bir oyun açın, tek ya da eşli oynayın; her eli birkaç dokunuşla girin.",
+      "101'de eli bitireni, açamayanları ve eldeki taşları girmeniz yeterli: okeyle, elden ve çift bitişte katlamalar, eşli oyunda takım toplamları ve işlek taş gibi cezalar otomatik hesaplanır. Klasik Okey'de 20 puandan geriye sayım ve gösterge puanı da dahildir.",
+      "Uygulama internet bağlantısı, hesap ya da reklam olmadan çalışır; tüm oyunlar yalnızca telefonunuzda saklanır."
+    ],
+    "en": [
+      "MRY Okey - Scorepad replaces the paper scoresheet at the okey table. Start a new 101 or classic Okey game, play solo or in teams, and enter each hand with a few taps.",
+      "In 101 just pick who finished, who could not open and the tiles left in hand: doubling for finishing with the joker, from hand or with pairs, team totals and penalties are calculated automatically. Classic Okey counts down from 20 points, indicator included.",
+      "The app works without an internet connection, accounts or ads; all games are stored only on your phone."
+    ]
+  },
+  "features": [
+    {
+      "icon": "sparkle",
+      "title": { "tr": "101 ve Okey", "en": "101 and Okey" },
+      "text": { "tr": "İki oyun türü, her biri tek veya eşli.", "en": "Two game types, each solo or in teams." }
+    },
+    {
+      "icon": "shield",
+      "title": { "tr": "Cezalı 101", "en": "101 with penalties" },
+      "text": { "tr": "İşlek taş, okey atma gibi cezalar ayrı satırda.", "en": "Penalties like playable discards on their own line." }
+    },
+    {
+      "icon": "book",
+      "title": { "tr": "Otomatik hesap", "en": "Automatic totals" },
+      "text": { "tr": "Katlamalar ve takım toplamları anında hesaplanır.", "en": "Multipliers and team totals calculated instantly." }
+    },
+    {
+      "icon": "heart",
+      "title": { "tr": "Reklamsız, çevrimdışı", "en": "Ad-free, offline" },
+      "text": { "tr": "Hesap yok, veri toplama yok; her şey telefonunda.", "en": "No account, no data collection; everything stays on your phone." }
+    }
+  ],
+  "screenshots": [
+    { "file": "shot-game101.webp", "alt": { "tr": "Eşli 101 oyununda el el puan tablosu ve takım toplamları", "en": "Hand-by-hand score table and team totals in a 101 team game" } },
+    { "file": "shot-hand101.webp", "alt": { "tr": "101'de el girme ekranı: bitiren, eldeki taşlar ve katlama", "en": "101 hand entry: finisher, tiles in hand and multiplier" } },
+    { "file": "shot-penalty.webp", "alt": { "tr": "Ceza yazma ekranı: oyuncu, miktar ve neden", "en": "Penalty entry: player, amount and reason" } },
+    { "file": "shot-okey.webp", "alt": { "tr": "Klasik Okey'de 20 puandan geriye sayan tablo", "en": "Classic Okey table counting down from 20" } },
+    { "file": "shot-home.webp", "alt": { "tr": "Kayıtlı oyunların listesi", "en": "List of saved games" } }
+  ],
+  "characters": [],
+  "privacy": {
+    "lastUpdated": "2026-11-22",
+    "draft": false,
+    "ads": false,
+    "rewardedAdsOptional": false,
+    "inAppPurchases": false,
+    "analytics": false,
+    "localSaveOnly": true,
+    "accounts": false,
+    "childDirected": false,
+    "savedData": {
+      "tr": "Oyuncu ve takım adları, el puanları, cezalar ve oyun ayarlarınız",
+      "en": "Player and team names, hand scores, penalties and your game settings"
+    },
+    "thirdParties": [],
+    "pendingThirdParties": { "tr": "", "en": "" }
+  }
+}

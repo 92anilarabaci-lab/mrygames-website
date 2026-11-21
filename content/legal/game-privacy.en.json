@@ -1,4 +1,5 @@
 {
+  "defaultSavedData": "Your level, inventory, restoration progress and settings",
   "title": "{{game}} — Privacy Policy",
   "lead": "This policy covers the mobile game {{game}} (Android package name: {{package}}), developed by {{studio}}.",
   "sections": [
@@ -16,7 +17,7 @@
       "h": "Data we collect and process",
       "p": [
         "{{game}} does not require a user account and does not ask you for personal information.",
-        { "when": "localSaveOnly", "text": "Your level, inventory, restoration progress and settings are kept in a save file in the app's folder on your device. This save is not sent to us." }
+        { "when": "localSaveOnly", "text": "{{savedData}} are kept in a save file in the app's folder on your device. This save is not sent to us." }
       ]
     },
     {
@@ -43,6 +44,7 @@
       "p": ["To improve the game we may record anonymous gameplay events such as which chapter was finished, which level was reached or whether an ad placement was used. These events do not contain your name, email address, location or contacts."]
     },
     {
+      "when": "hasThirdParties",
       "h": "Third-party services",
       "p": ["{{game}} uses the services below. They process data under their own privacy policies:"],
       "thirdParties": true
@@ -51,7 +53,8 @@
       "h": "Retention and deletion",
       "p": [
         { "when": "localSaveOnly", "text": "Your save stays on your device. It is deleted when you uninstall the app or clear its data in Android settings." },
-        "Data held by ad and purchase partners is governed by that partner's policy. To ask for deletion, write to {{email}} and we will guide you."
+        { "when": "hasPartners", "text": "Data held by ad and purchase partners is governed by that partner's policy." },
+        "To ask for deletion, write to {{email}} and we will guide you."
       ]
     },
     {
