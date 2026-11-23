@@ -10,7 +10,8 @@
         { "when": "localSaveOnly", "text": "Your game progress is stored only on your device." },
         { "when": "ads", "text": "Rewarded ads are always optional; ad partners may process device data such as the advertising ID." },
         { "when": "inAppPurchases", "text": "Purchases go through Google Play; your payment details never reach us." },
-        { "when": "analytics", "text": "Anonymous gameplay events without personal data may be used to improve the game." }
+        { "when": "analytics", "text": "Anonymous gameplay events without personal data may be used to improve the game." },
+        { "when": "sharing", "text": "Sharing only happens when you start it, through the app you choose." }
       ]
     },
     {
@@ -26,7 +27,7 @@
       "p": [
         "The game may show two kinds of ads: rewarded ads, shown only when you press a button and choose to watch, and occasional interstitial ads at natural breaks such as between chapters.",
         "To serve ads, cap their frequency, prevent fraud and measure ad performance, ad partners may process your device's advertising ID, IP address, device model and operating system.",
-        "Players in the European Economic Area, the United Kingdom and Switzerland see a consent screen before any personalised ads are shown. You can change your choice in the game settings.",
+        { "when": "adConsentScreen", "text": "Players in the European Economic Area, the United Kingdom and Switzerland see a consent screen before any personalised ads are shown. You can change your choice in the game settings." },
         "On Android you can reset or delete your advertising ID under Settings → Google → Ads."
       ]
     },
@@ -34,7 +35,8 @@
       "when": "inAppPurchases",
       "h": "In-app purchases",
       "p": [
-        "The game offers optional purchases. Everything for sale can also be earned by playing.",
+        { "when": "purchasesEarnable", "text": "The game offers optional purchases. Everything for sale can also be earned by playing." },
+        { "when": "!purchasesEarnable", "text": "The game offers optional purchases. No purchase is needed to play the game and solve its levels." },
         "Payments are handled entirely by Google Play. Your card or account details are never passed to us. Only the transaction ID and product information provided by Google Play are used to verify a purchase and make sure a reward is never granted twice."
       ]
     },
@@ -42,6 +44,15 @@
       "when": "analytics",
       "h": "Gameplay analytics",
       "p": ["To improve the game we may record anonymous gameplay events such as which chapter was finished, which level was reached or whether an ad placement was used. These events do not contain your name, email address, location or contacts."]
+    },
+    {
+      "when": "sharing",
+      "h": "Sharing",
+      "p": [
+        "When you press \"Ask a friend for help\", the game passes a screenshot of the current puzzle and a short help message through Android's share sheet to the app you choose (for example Instagram or X). You finish the post in that app; what you share is subject to that app's rules and is not sent to us.",
+        "The screenshot prepared for sharing is saved to your device's photo gallery; you can delete it there at any time.",
+        "The Instagram or X user name you can optionally enter in the settings is stored only on your device; it is added to the share message and used to open your profile when you ask. It is not sent to us."
+      ]
     },
     {
       "when": "hasThirdParties",

@@ -10,7 +10,8 @@
         { "when": "localSaveOnly", "text": "Oyun ilerlemeniz yalnızca cihazınızda saklanır." },
         { "when": "ads", "text": "Ödüllü reklamlar her zaman isteğe bağlıdır; reklam ortakları reklam kimliği gibi cihaz verilerini işleyebilir." },
         { "when": "inAppPurchases", "text": "Satın alımlar Google Play üzerinden yapılır; ödeme bilgileriniz bize ulaşmaz." },
-        { "when": "analytics", "text": "Oyunu geliştirmek için kişisel veri içermeyen anonim oyun olayları kullanılabilir." }
+        { "when": "analytics", "text": "Oyunu geliştirmek için kişisel veri içermeyen anonim oyun olayları kullanılabilir." },
+        { "when": "sharing", "text": "Paylaşım yalnızca siz başlattığınızda, sizin seçtiğiniz uygulama üzerinden yapılır." }
       ]
     },
     {
@@ -26,7 +27,7 @@
       "p": [
         "Oyunda iki tür reklam bulunabilir: yalnızca siz bir düğmeye basıp izlemeyi seçtiğinizde gösterilen ödüllü reklamlar ve bölüm araları gibi doğal molalarda seyrek gösterilen geçiş reklamları.",
         "Reklamları sunmak, sıklığını sınırlamak, dolandırıcılığı önlemek ve reklam performansını ölçmek için reklam ortakları cihazınızın reklam kimliğini, IP adresinizi, cihaz modeli ve işletim sistemi bilgisini işleyebilir.",
-        "Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'deki oyunculara, kişiselleştirilmiş reklamlar gösterilmeden önce bir izin ekranı sunulur. Tercihinizi oyun ayarlarından değiştirebilirsiniz.",
+        { "when": "adConsentScreen", "text": "Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'deki oyunculara, kişiselleştirilmiş reklamlar gösterilmeden önce bir izin ekranı sunulur. Tercihinizi oyun ayarlarından değiştirebilirsiniz." },
         "Android cihazınızda Ayarlar → Google → Reklamlar bölümünden reklam kimliğinizi sıfırlayabilir veya silebilirsiniz."
       ]
     },
@@ -34,7 +35,8 @@
       "when": "inAppPurchases",
       "h": "Uygulama içi satın alımlar",
       "p": [
-        "Oyunda isteğe bağlı satın alımlar bulunur. Satılan her şey oynayarak da kazanılabilir.",
+        { "when": "purchasesEarnable", "text": "Oyunda isteğe bağlı satın alımlar bulunur. Satılan her şey oynayarak da kazanılabilir." },
+        { "when": "!purchasesEarnable", "text": "Oyunda isteğe bağlı satın alımlar bulunur. Oyunu oynamak ve bölümleri çözmek için satın alma gerekmez." },
         "Ödemeler tamamen Google Play tarafından işlenir. Kart veya hesap bilgileriniz bize iletilmez. Satın alımı doğrulamak ve ödülü iki kez vermemek için yalnızca Google Play'in sağladığı işlem kimliği ve ürün bilgisi kullanılır."
       ]
     },
@@ -42,6 +44,15 @@
       "when": "analytics",
       "h": "Oyun analitiği",
       "p": ["Oyunu iyileştirmek için hangi bölümün tamamlandığı, hangi seviyeye ulaşıldığı veya bir reklam yerleşiminin kullanılıp kullanılmadığı gibi anonim oyun olayları kaydedilebilir. Bu olaylar adınızı, e-posta adresinizi, konumunuzu veya rehberinizi içermez."]
+    },
+    {
+      "when": "sharing",
+      "h": "Paylaşım",
+      "p": [
+        "\"Arkadaşından yardım iste\" düğmesine bastığınızda oyun, o anki bulmacanın ekran görüntüsünü ve kısa bir yardım metnini Android'in paylaşım ekranıyla sizin seçtiğiniz uygulamaya (örneğin Instagram veya X) iletir. Paylaşımı o uygulamada siz tamamlarsınız; paylaşılan içerik o uygulamanın kurallarına tabidir ve bize gönderilmez.",
+        "Paylaşım için hazırlanan ekran görüntüsü cihazınızın fotoğraf galerisine kaydedilir; dilediğiniz zaman oradan silebilirsiniz.",
+        "Ayarlarda isteğe bağlı olarak girdiğiniz Instagram veya X kullanıcı adı yalnızca cihazınızda saklanır; paylaşım metnine eklenir ve siz istediğinizde profilinizi açmak için kullanılır. Bize gönderilmez."
+      ]
     },
     {
       "when": "hasThirdParties",

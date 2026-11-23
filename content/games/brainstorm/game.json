@@ -1,0 +1,110 @@
+{
+  "slug": "brainstorm",
+  "order": 3,
+  "featured": false,
+  "status": "coming-soon",
+  "title": { "tr": "BrainStorm", "en": "BrainStorm" },
+  "subtitle": { "tr": "Zeka bulmacaları", "en": "Brain teasers" },
+  "genre": { "tr": "Bulmaca oyunu", "en": "Puzzle game" },
+  "platforms": ["android"],
+  "accent": "#1B6FB0",
+  "accentDeep": "#12305A",
+  "packageId": "com.oneshot.brainstorm",
+  "packageIdIsPlaceholder": false,
+  "googlePlayUrl": "",
+  "media": {
+    "icon": "icon.webp",
+    "cover": "cover.webp",
+    "og": "og.jpg",
+    "heroShot": "shot-story.webp"
+  },
+  "tagline": {
+    "tr": "Yalancıyı bul, şifreyi kır, köprüden herkesi geçir: 100 bölüm zeka bulmacası.",
+    "en": "Spot the liar, crack the code, get everyone across the bridge: 100 levels of brain teasers."
+  },
+  "summary": {
+    "tr": "Mantık, dedektif, şifre, köprü ve kelime bulmacalarından oluşan, her bölümü küçük bir hikâyeyle başlayan bir zeka oyunu.",
+    "en": "A brain-teaser game of logic, detective, code, bridge and word puzzles, each level opening with a short story."
+  },
+  "description": {
+    "tr": [
+      "BrainStorm'da her bölüm küçük bir hikâyeyle başlar: gece kapanacak bir köprü, kasası boşalmış bir fırın, şapkasının rengini tahmin etmeye çalışan bir sahne ekibi. Görevin ipuçlarını okuyup doğru sonuca ulaşmak.",
+      "Doğru mu yalan mı, dedektif, şifreli kilit, köprü geçişi, şapka, sayı dizisi, para hesabı, kelime merdiveni ve sayı avı bulmacaları kolaydan zora 100 bölüme yayılır. Takıldığında ipucu alabilir, bölümü geçebilir ya da bulmacayı arkadaşlarına sorabilirsin.",
+      "Oyun ücretsizdir. Reklam ve isteğe bağlı uygulama içi satın alma (elmas paketleri) içerir. Hesap açmak gerekmez; ilerlemen telefonunda saklanır."
+    ],
+    "en": [
+      "Every BrainStorm level opens with a short story: a bridge whose lights go out tonight, a bakery whose till is empty, a stage crew guessing the colour of their own hats. Your job is to read the clues and reach the right answer.",
+      "Truth-or-lie, detective, code lock, bridge crossing, hat, number sequence, money, word ladder and number hunt puzzles spread over 100 levels from easy to hard. When you are stuck you can take a hint, skip the level or ask your friends.",
+      "The game is free. It contains ads and optional in-app purchases (diamond packs). No account is needed; your progress is kept on your phone."
+    ]
+  },
+  "features": [
+    {
+      "icon": "sparkle",
+      "title": { "tr": "9 bulmaca türü", "en": "9 puzzle types" },
+      "text": { "tr": "Mantıktan şifreye, köprüden kelimeye.", "en": "From logic to codes, bridges to words." }
+    },
+    {
+      "icon": "book",
+      "title": { "tr": "Hikâyeli bölümler", "en": "Story-led levels" },
+      "text": { "tr": "Her bulmaca gerçek bir mekânda, kendi karakterleriyle.", "en": "Every puzzle in a real place, with its own cast." }
+    },
+    {
+      "icon": "shield",
+      "title": { "tr": "Takılmak yok", "en": "Never stuck" },
+      "text": { "tr": "Aşamalı ipuçları, bölüm geçme ve çözüm izleme.", "en": "Step-by-step hints, level skips and solution replays." }
+    },
+    {
+      "icon": "heart",
+      "title": { "tr": "Arkadaşına sor", "en": "Ask a friend" },
+      "text": { "tr": "Bulmacayı Instagram veya X'te paylaş, çözümü birlikte bulun.", "en": "Share the puzzle on Instagram or X and solve it together." }
+    }
+  ],
+  "screenshots": [
+    { "file": "shot-story.webp", "alt": { "tr": "Bölüm tanıtımı: Gece Köprüsü bulmacasının hikâyesi ve kuralları", "en": "Level intro: the story and rules of the Night Bridge puzzle" } },
+    { "file": "shot-liars.webp", "alt": { "tr": "Doğru mu yalan mı bulmacası: üç kişinin ifadeleri", "en": "Truth-or-lie puzzle: three people's statements" } },
+    { "file": "shot-detective.webp", "alt": { "tr": "Dedektif bulmacası: fırında olay yeri ipuçları ve şüpheliler", "en": "Detective puzzle: crime-scene clues and suspects in a bakery" } },
+    { "file": "shot-hats.webp", "alt": { "tr": "Şapka bulmacası: sahnede sıraya dizilmiş üç oyuncu", "en": "Hat puzzle: three players lined up on a stage" } },
+    { "file": "shot-codelock.webp", "alt": { "tr": "Şifreli kilit bulmacası: ipuçlarından üç haneli şifreyi bulma", "en": "Code lock puzzle: finding a three-digit code from clues" } },
+    { "file": "shot-home.webp", "alt": { "tr": "Ana ekran: sıradaki bölüm ve elmas bakiyesi", "en": "Home screen: the next level and diamond balance" } },
+    { "file": "shot-store.webp", "alt": { "tr": "Mağaza: elmas paketleri", "en": "Store: diamond packs" } }
+  ],
+  "characters": [],
+  "privacy": {
+    "lastUpdated": "2026-11-23",
+    "draft": false,
+    "ads": true,
+    "rewardedAdsOptional": true,
+    "adConsentScreen": false,
+    "inAppPurchases": true,
+    "purchasesEarnable": false,
+    "analytics": false,
+    "localSaveOnly": true,
+    "sharing": true,
+    "accounts": false,
+    "childDirected": false,
+    "savedData": {
+      "tr": "Bölüm ilerlemeniz, yıldızlarınız, elmas ve ipucu bakiyeniz, ayarlarınız ve isteğe bağlı girdiğiniz sosyal medya kullanıcı adlarınız",
+      "en": "Your level progress, stars, diamond and hint balance, settings and any social media user names you choose to enter"
+    },
+    "thirdParties": [
+      {
+        "name": "Google Play Billing (Google LLC)",
+        "purpose": {
+          "tr": "Uygulama içi satın alımların işlenmesi ve doğrulanması",
+          "en": "Processing and verifying in-app purchases"
+        },
+        "policyUrl": "https://policies.google.com/privacy"
+      },
+      {
+        "name": "Google AdMob (Google LLC)",
+        "purpose": {
+          "tr": "Ödüllü ve geçiş reklamlarının gösterilmesi ve reklam ölçümü",
+          "en": "Showing rewarded and interstitial ads and ad measurement"
+        },
+        "policyUrl": "https://policies.google.com/technologies/ads"
+      }
+    ],
+    "pendingThirdParties": { "tr": "", "en": "" }
+  }
+}

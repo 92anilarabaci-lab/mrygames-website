@@ -91,6 +91,8 @@
     "draft": true,
     "ads": true,
     "rewardedAdsOptional": true,
+    "adConsentScreen": true,
+    "purchasesEarnable": true,
     "inAppPurchases": true,
     "analytics": true,
     "localSaveOnly": true,
